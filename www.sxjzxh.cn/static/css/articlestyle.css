@@ -1,0 +1,72 @@
+﻿body {
+}
+a {
+    text-decoration: none;
+    color:#000;
+
+}
+#navigation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1016px;
+    height: 30px;
+    border: solid;
+    border-color: #e4e4e4;
+    border-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-top: 10px;
+    color: #d51239;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1016px;
+    margin-top: 25px;
+}
+
+#cleft {
+    float: left;
+    border: solid;
+    border-color: #e4e4e4;
+    border-width: 1px;
+    width: 200px;
+    height: 280px;
+}
+#cleft div{
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom:10px;
+    font-size:15px;
+}
+ #cleft table {
+     
+        width:100%;
+        border:0px;
+    }
+
+#cleft a {
+     text-decoration: none;
+     color:#717171;
+}
+#cleft .on a:hover {
+     text-decoration: none;
+     color:#fff;
+}
+    #cleft td {
+        height:30px;
+        border:0px;
+    } 
+     #cleft .on td {
+        height:30px;
+        background-color:#e61c4c;
+        border:0px;
+    }
+
+#cright {
+    float: right;
+    width: 755px;
+    line-height:30px;
+    font-size:14px;
+}

@@ -1,0 +1,221 @@
+﻿body {
+    margin:0;
+    padding:0;
+    font-family:'Microsoft YaHei';
+    font-size:13px;
+}
+
+#top {
+    width: 1016px;
+    height: 127px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-menu {
+    height: 35px;
+    background-color: #005ba5;
+    margin: 0px; padding: 0px;
+    font-size:12px;
+}
+
+#top-menu a {
+	 text-decoration: none;
+}
+#top-menu a:hover {
+	 text-decoration:none;
+}
+.navBar {
+	background: #155da5; height: 35px; color: rgb(255, 255, 255); line-height: 35px; position: relative; z-index: 1;
+}
+.nav {
+	margin: 0px auto; width: 1116px; font-family: "Microsoft YaHei",SimSun,SimHei;
+    list-style: none;
+    -ms-zoom: 1;
+}
+.nav .m {
+	 float: left; position: relative; 
+}
+.nav a:hover {
+	color: rgb(255, 255, 255); 
+    
+}
+.nav h3 {
+	margin: 0px; padding: 0px; height: 35px; overflow: hidden; font-size: 13px; font-weight: normal; float: left;
+}
+.nav h3 a {
+	padding: 0px 20px; color: rgb(255, 255, 255); vertical-align: top; display: block;
+}
+.nav .on {
+	border-color: rgb(31, 124, 175);
+    border-top-width:1px; border-top:solid; border-top-color:#09883c; margin-top: -1px;
+    height: 33px;
+}
+.nav .on h3 a {
+	background: rgb(255, 255, 255);  color: #155da5;
+}
+
+    .txtMarquee-left .bd {
+       
+    }
+
+        .txtMarquee-left .bd .tempWrap {
+            width: 865px !important;
+        }
+        /* 用 !important覆盖SuperSlide自动生成的宽度，这样就可以手动控制可视宽度。 */
+        .txtMarquee-left .bd ul {
+            overflow: hidden;
+            zoom: 1;
+        }
+
+            .txtMarquee-left .bd ul li {
+                margin-right: 20px;
+                float: left;
+                height: 24px;
+                line-height: 24px;
+                text-align: left;
+                _display: inline;
+                width: auto !important;
+            }
+                /* 用 width:auto !important 覆盖SuperSlide自动生成的宽度，解决文字不衔接问题 */
+
+                .txtMarquee-left .bd ul li a {
+                    color: red;
+                }
+
+txtMarquee-left a {
+    color: red;
+}
+.txtMarquee-left {
+ width:650px;
+  position:relative;
+     overflow:hidden;
+     clear:both;
+}
+.txtMarquee-left .bd ul {
+    width:1905px;
+}
+.txtMarquee-left .bd1 ul li {
+    float: left; width: 100px;
+}
+
+.nav .sub {
+	 background:#fff; 
+     padding: 10px 0px; left: 0px; top: 25px; width:120px; 
+     text-align:left; display: none; 
+     position: absolute;
+}
+.nav .sub li {
+	vertical-align: middle;
+    margin: 0px; padding: 8px;
+    padding-left:15px;
+    list-style: none;
+    -ms-zoom: 1;
+    
+}
+
+.nav .sub li a {
+	padding: 0px 0px; height: 15px; color: #484848; line-height: 15px; display: block;
+    font-size:13px;
+}
+.nav .sub li a:hover {
+	 color: #155da5;
+}
+.nav #m7 h3 a {
+	border-right-color: rgb(91, 179, 225); border-right-width: 1px; border-right-style: solid;
+}
+
+#top-banner {
+    margin:0;
+    padding:0;
+     position:relative;
+     overflow:hidden;
+     clear:both;
+}
+
+.fullSlide{  width:100%;  position:relative;margin-top:-20px; }	
+.fullSlide .bd{position:relative; z-index:0;  }	
+.fullSlide .bd ul{ margin:0;padding:0; width:100% !important;  }
+.fullSlide .bd img{ height:369px; }	
+.fullSlide .bd li{ width:100% !important;  overflow:hidden; text-align:center;  }	
+.fullSlide .bd li a{ display:block; height:369px; }	
+.fullSlide .hd{ width:100%;  position:absolute; z-index:1; bottom:0; left:0; height:50px; line-height:50px;  text-align:center;		 _background:#000; _filter:alpha(opacity=60); 	}	
+.fullSlide .hd ul{ text-align:center;   }	
+.fullSlide .hd ul li{ margin:0;padding:0; cursor:pointer; display:inline-block; *display:inline; zoom:1; width:33px; height:3px; margin:5px; background:url(../images/tg_flash_p.png) -38px 0; overflow:hidden; 		line-height:9999px; 	}	
+.fullSlide .hd ul .on{ background-position:0 0; }
+
+#top-boot {
+    padding-top: 10px;
+    height:23px;
+    background-color:#dcdddd;
+    color:#155da5;
+    font-size:12px;
+    text-align:center;
+}
+#top-search{
+    height:100px;
+    width:1016px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#top-table {
+    border-width:0px;
+    margin-top:25px;
+    width:100%;
+}
+    #top-table input {
+        height:20px;
+        width:170px;
+        padding:5px;
+        border-width:1px;
+        border-color:#cdcccb;
+        color:#d7d3d2;
+    }
+#top-notice {
+    width:995px;
+    margin-left: auto;
+    margin-right: auto;
+    height:35px;
+    padding-top:10px;
+    border-top:solid;
+    border-top-color:#e4e4e4;
+    border-top-width:1px;
+    color:#484848;
+    text-align:center;
+}
+
+
+#footer-boottable1 {
+    height: 6px;
+    background-color: #005ba5;
+}
+
+#footer-boottable2 {
+    height: 160px;
+    background-color: black;
+    padding-top: 30px;
+}
+
+#footer-content {
+    width: 1016px;
+    height: 65px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer-copyright {
+    padding-top: 15px;
+    width: 1016px;
+    height: 65px;
+    color: #adadac;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height:20px;
+    text-align:center;
+}
+.bclear {
+     clear :both;
+    height:20px;
+}
